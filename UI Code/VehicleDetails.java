@@ -35,7 +35,7 @@ public class VehicleDetails {
 	private JTextField modelTxt;
 	
 	public static void readData() throws IOException {
-		File csv = new File("D:\\Study\\AED\\VehicleDataCSV_t.csv");
+		File csv = new File(".\\VehicleDataCSV_t.csv");
 		BufferedReader br = new BufferedReader(new FileReader(csv));
 		String line = "";
 		while((line = br.readLine()) != null)
